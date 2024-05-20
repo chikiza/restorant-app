@@ -1,6 +1,9 @@
-import { NavBarBs } from "../components/NavBar"
 
-export const AboutPage =() => {
+import { NavBarBs } from "../components/NavBar";
+import { About } from "../components/About";
+
+import { Header } from "../components/Header";
+export const AboutPage = () => {
     return (
         <>
             <NavBarBs></NavBarBs>
